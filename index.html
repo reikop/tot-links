@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ToT · episode links</title>
+<meta name="description" content="Source repositories for every ToT short: the open-source projects behind each episode.">
+<style>
+  :root { --bg: #0b0f19; --bg2: #121827; --fg: #e5e7eb; --muted: #9ca3af; --line: #253049; --accent: #4ade80; --warn: #f59e0b; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.45 -apple-system, "Segoe UI", Roboto, "Pretendard", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 28px 16px 60px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  header .logo { width: 56px; height: 56px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #86efac, #16a34a 70%); box-shadow: 0 0 24px rgba(74,222,128,.35); flex: none; }
+  h1 { font-size: 24px; margin: 0; } h1 small { display: block; font-size: 14px; color: var(--muted); font-weight: 500; }
+  p.lead { color: var(--muted); margin: 8px 0 22px; }
+  .links { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 26px; }
+  .btn { display: inline-block; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--bg2); color: var(--fg); text-decoration: none; font-weight: 700; font-size: 15px; }
+  .btn.src { border-color: var(--accent); color: var(--accent); overflow-wrap: anywhere; }
+  ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 14px; }
+  .ep { border: 1px solid var(--line); border-radius: 16px; background: var(--bg2); padding: 16px; }
+  .ep .t { font-weight: 800; font-size: 18px; } .ep .ko { color: var(--muted); font-size: 15px; margin-top: 2px; }
+  .ep .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+  .tag { font-size: 12px; color: var(--warn); border: 1px solid var(--warn); border-radius: 999px; padding: 2px 8px; vertical-align: middle; font-weight: 700; }
+  footer { margin-top: 36px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <header><div class="logo"></div><h1>ToT <small>one-minute explainers of open-source game projects</small></h1></header>
+  <p class="lead">Every episode's source repository, in one place. Bring your own game files; none of these projects ship game data.</p>
+  <div class="links"><a class="btn" href="https://www.instagram.com/totsgame/" target="_blank" rel="noopener">◎ Instagram @totsgame</a></div>
+  <ul>
+    <li class="ep">
+      <div class="t">Gran Turismo 4 in a browser tab at 50 fps, no emulator?</div>
+      <div class="ko">그란 투리스모 4가 브라우저 탭에서 50fps? 에뮬레이터 없이</div>
+      <div class="row"><a class="btn src" href="https://github.com/snuri00/ps2-web-recomp" target="_blank" rel="noopener">🔗 Source: github.com/snuri00/ps2-web-recomp</a><a class="btn" href="https://youtube.com/shorts/EVLcG-hWkzo" target="_blank" rel="noopener">▶ YouTube</a><a class="btn" href="https://www.instagram.com/reel/DeptvLxgC-6/" target="_blank" rel="noopener">◎ Reel</a></div>
+    </li>
+    <li class="ep">
+      <div class="t">How DroidDeck runs Steam Big Picture and Windows games on an Android handheld (no root) <span class="tag">full version</span></div>
+      <div class="ko">안드로이드 게임기에서 Steam과 Windows 게임이 루팅 없이 돌아가는 원리</div>
+      <div class="row"><a class="btn src" href="https://github.com/Droid-Deck/DroidDeck" target="_blank" rel="noopener">🔗 Source: github.com/Droid-Deck/DroidDeck</a><a class="btn" href="https://youtu.be/kTVOAkZM9cA" target="_blank" rel="noopener">▶ YouTube</a></div>
+    </li>
+    <li class="ep">
+      <div class="t">Steam Big Picture on an Android handheld, no root?</div>
+      <div class="ko">안드로이드 게임기에서 루팅 없이 Steam이 돌아간다고?</div>
+      <div class="row"><a class="btn src" href="https://github.com/Droid-Deck/DroidDeck" target="_blank" rel="noopener">🔗 Source: github.com/Droid-Deck/DroidDeck</a><a class="btn" href="https://youtube.com/shorts/njFfgamRokk" target="_blank" rel="noopener">▶ YouTube</a><a class="btn" href="https://www.instagram.com/reel/DeWXnCFjtxv/" target="_blank" rel="noopener">◎ Reel</a></div>
+    </li>
+    <li class="ep">
+      <div class="t">Diablo II on an iPhone at 60 fps, no emulator?</div>
+      <div class="ko">아이폰에서 디아블로 2가 60fps로? 에뮬레이터 없이</div>
+      <div class="row"><a class="btn src" href="https://github.com/jhaizhou-ops/d2r-mobile" target="_blank" rel="noopener">🔗 Source: github.com/jhaizhou-ops/d2r-mobile</a><a class="btn" href="https://youtube.com/shorts/K-2f5Ap_2Gg" target="_blank" rel="noopener">▶ YouTube</a><a class="btn" href="https://www.instagram.com/reel/Deba3XxkjPL/" target="_blank" rel="noopener">◎ Reel</a></div>
+    </li>
+    <li class="ep">
+      <div class="t">How passthrough mods run Minecraft inside GTA V (and Spider-Man in Arkham Knight) — explained <span class="tag">full version</span></div>
+      <div class="ko">Minecraft 스티브가 GTA V를 뛰어다닌다고? 두 게임을 동시에 돌려 하나로 합치는 패스스루 모딩 완전 해설</div>
+      <div class="row"><a class="btn src" href="https://github.com/rehan-remade/universal-modder" target="_blank" rel="noopener">🔗 Source: github.com/rehan-remade/universal-modder</a><a class="btn" href="https://youtu.be/j3fQ5YteoaI" target="_blank" rel="noopener">▶ YouTube</a></div>
+    </li>
+    <li class="ep">
+      <div class="t">Minecraft's Steve running inside GTA V?</div>
+      <div class="ko">마인크래프트 스티브가 GTA V 안을 뛰어다닌다고?</div>
+      <div class="row"><a class="btn src" href="https://github.com/rehan-remade/universal-modder" target="_blank" rel="noopener">🔗 Source: github.com/rehan-remade/universal-modder</a><a class="btn" href="https://youtube.com/shorts/YR_SAtOhues" target="_blank" rel="noopener">▶ YouTube</a><a class="btn" href="https://www.instagram.com/reel/DeULwSen3rZ/" target="_blank" rel="noopener">◎ Reel</a></div>
+    </li>
+    <li class="ep">
+      <div class="t">The fire in Doom is 20 lines of code — no physics, no shaders</div>
+      <div class="ko">둠의 불 효과는 코드 20줄이다 — 물리도 셰이더도 없이</div>
+      <div class="row"><a class="btn src" href="https://github.com/filipedeschamps/doom-fire-algorithm" target="_blank" rel="noopener">🔗 Source: github.com/filipedeschamps/doom-fire-algorithm</a></div>
+    </li>
+    <li class="ep">
+      <div class="t">How AnyPS5 runs PS5 games on PC with NO emulator (explained in 6 minutes) <span class="tag">full version</span></div>
+      <div class="ko">AnyPS5는 어떻게 에뮬레이터 없이 PS5 게임을 PC에서 돌릴까 (6분 해설)</div>
+      <div class="row"><a class="btn src" href="https://github.com/boykopovar/AnyPS5" target="_blank" rel="noopener">🔗 Source: github.com/boykopovar/AnyPS5</a><a class="btn" href="https://youtu.be/uwKH79ZIZfM" target="_blank" rel="noopener">▶ YouTube</a></div>
+    </li>
+    <li class="ep">
+      <div class="t">Running a PS5 game on PC with no emulator?</div>
+      <div class="ko">PS5 게임을 PC에서 에뮬레이터 없이 돌린다고?</div>
+      <div class="row"><a class="btn src" href="https://github.com/boykopovar/AnyPS5" target="_blank" rel="noopener">🔗 Source: github.com/boykopovar/AnyPS5</a><a class="btn" href="https://youtube.com/shorts/-Oax4_rOmcM" target="_blank" rel="noopener">▶ YouTube</a><a class="btn" href="https://www.instagram.com/reel/DeUOX_9jQN5/" target="_blank" rel="noopener">◎ Reel</a></div>
+    </li>
+  </ul>
+  <footer>Updated 2026-10-20 · 9 episodes · Trademarks belong to their owners; ToT is not affiliated with any of the projects or publishers.</footer>
+</main>
+</body>
+</html>
